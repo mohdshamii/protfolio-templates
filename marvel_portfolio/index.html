@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Shami | Cinematic Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+    
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-sun light-icon"></i>
+        <i class="fas fa-moon dark-icon"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Particles Background -->
+        <div id="tsparticles"></div>
+        
+        <!-- Parallax Background Image -->
+        <div class="hero-bg" id="hero-bg"></div>
+        
+        <!-- HUD Overlay -->
+        <div class="hud-overlay" id="hud-overlay">
+            <div class="hud-corner top-left"></div>
+            <div class="hud-corner top-right"></div>
+            <div class="hud-corner bottom-left"></div>
+            <div class="hud-corner bottom-right"></div>
+            <div class="hud-ring" id="hud-ring"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="hero-content">
+            <div class="glass-card">
+                <h3 class="greeting">INITIALIZING SYSTEM...</h3>
+                <h1 class="glitch" data-text="MOHD SHAMI">MOHD SHAMI</h1>
+                <div class="typing-container">
+                    <span class="static-text">> ROLE: </span>
+                    <span class="typed-text" id="typed-text"></span><span class="cursor">_</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="cta-container">
+                    <a href="#projects" class="btn btn-primary">
+                        <span class="btn-text">ACCESS MAINFRAME</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- tsParticles -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.11.0/tsparticles.engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-basic@2.11.0/tsparticles.basic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-interaction-particles-links@2.11.0/tsparticles.interaction.particles.links.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2.11.0/tsparticles.move.base.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2.11.0/tsparticles.shape.circle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2.11.0/tsparticles.updater.color.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2.11.0/tsparticles.updater.opacity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2.11.0/tsparticles.updater.out-modes.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2.11.0/tsparticles.updater.size.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-stars@2.11.0/tsparticles.preset.stars.min.js"></script>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
